@@ -79,7 +79,7 @@ An end-to-end data analysis project for a fictional pizza chain.
 ## Dashboards  
 
 ### Dashboard – Sales Overview  
-![Pizza Sales Dashboard](./dashboard.png)  
+![Pizza Sales Dashboard](./PizzaSalesDashboard.png)  
 
 Features:  
 - KPIs (Revenue, Orders, AOV).  
