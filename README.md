@@ -1,64 +1,103 @@
-# 🍕 Pizza Sales Project – SQL & Power BI  
+# Pizza Sales Project – SQL & Power BI  
 
-## 📌 Overview  
-The **Pizza Sales Project** is an end-to-end data analysis and visualization project designed to explore and optimize sales performance for a fictional pizza restaurant chain.  
-It leverages **SQL** for data extraction and transformation, and **Power BI** for creating interactive dashboards.  
-The ultimate goal is to generate insights that can guide decision-making, improve sales, and boost customer satisfaction.  
-
----
-
-## 🔹 Project Workflow  
-
-### 1. Data Acquisition  
-- Raw sales data is collected from multiple sources such as databases, CSV files, or data warehouses.  
-- Typical data includes:  
-  - Customer orders  
-  - Pizza/product details  
-  - Order dates & timestamps  
-  - Transaction amounts  
-
-### 2. Data Transformation (SQL)  
-- Data is cleaned, filtered, and reshaped into an analysis-ready format using SQL.  
-- Common tasks include:  
-  - Table joins  
-  - Aggregations  
-  - Handling null/missing values  
-  - Creating calculated fields  
-
-### 3. Data Analysis  
-Key SQL queries are used to answer critical business questions, such as:  
-- Which pizzas are the **top sellers**?  
-- What are the **sales trends** across days, weeks, or months?  
-- How do **customer preferences** vary?  
-- What is the **average order value**?  
-- Which **locations** perform best?  
-
-### 4. Data Visualization (Power BI)  
-Interactive dashboards in Power BI bring the analysis to life, including:  
-- **Bar & pie charts** → Sales breakdown by pizza type or category  
-- **Time-series charts** → Sales growth & seasonal trends  
-- **Geo maps** → Performance by restaurant location  
-- **KPI dashboards** → At-a-glance business performance  
-
-📊 **Sample Dashboards:**  
-- Dashboard 1 – Sales Overview  
-- Dashboard 2 – Location & Product Performance  
-
-### 5. Insights & Recommendations  
-The dashboards and queries provide actionable insights that help the pizza chain:  
-- Optimize product offerings  
-- Adjust marketing campaigns  
-- Improve location-specific performance  
-- Enhance customer satisfaction & retention  
+![Project Status](https://img.shields.io/badge/Status-Completed-brightgreen)  
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow)  
+![SQL](https://img.shields.io/badge/Database-SQL-blue)  
+![Portfolio](https://img.shields.io/badge/Use-Portfolio%20Project-orange)  
 
 ---
 
-## ⚙️ Tech Stack & Dependencies  
-- **SQL** (Data cleaning, transformation, and querying)  
-- **Power BI Desktop** (Data visualization & dashboards)  
-- **Data Source**: SQL Database / CSV files  
+## Overview  
+An end-to-end data analysis project for a fictional pizza chain.  
+- **SQL**: Data extraction, cleaning, and transformation.  
+- **Power BI**: Interactive dashboards & KPIs.  
+- **Goal**: Identify sales trends, optimize operations, and improve customer satisfaction.  
 
 ---
 
-## 🚀 Outcome  
-This project demonstrates how **SQL + Power BI** can be combined to transform raw sales data into meaningful insights, enabling data-driven decision-making in the food & beverage industry.  
+## Dataset  
+- Customer orders, product details, timestamps, transaction amounts.  
+- Source: SQL Database / CSV files.  
+
+---
+
+## Key Metrics  
+- **Total Revenue:** 817.86K  
+- **Total Orders:** 21,350  
+- **Total Pizzas Sold:** 49,574  
+- **Average Order Value (AOV):** 38.31  
+- **Average Pizzas per Order:** 2.32  
+
+---
+
+## Insights  
+
+### 🗓️ Time-Based Trends  
+- **Daily:** Orders peak **Fri (3.5K)**, **Sat (3.2K)**; lowest on **Sun (2.6K)**.  
+- **Monthly:** High in **Jul (1935)**, **Jan (1845)**; low in **Sep (1661)**, **Oct (1646)**.  
+
+**Recommendations:**  
+- Boost **Sunday sales** with promos.  
+- Run **Back-to-School offers in Sep** and **Festive packs in Oct**.  
+
+---
+
+### Pizza Category Performance  
+- **Classic:** 26.9% (15K pizzas) – top category.  
+- **Supreme & Veggie:** ~25% each (~12K each).  
+- **Chicken:** 11K – lowest.  
+
+**Recommendations:**  
+- Promote **Chicken pizzas** via bundles.  
+- Keep **Classic pizzas** as the anchor product.  
+
+---
+
+### Pizza Size Performance  
+- **Large:** 45.9% – dominant size.  
+- **Medium:** 30.5%.  
+- **Regular:** 21.8%.  
+- **X-Large:** 1.7%.  
+- **XX-Large:** negligible.  
+
+**Recommendations:**  
+- **Phase out XX-Large**, low ROI.  
+- Slight **price increase on Large** → strong revenue gain.  
+
+---
+
+### Customer Behavior  
+- Orders are **group-based (2–3 pizzas/order)**.  
+- Weekends = **social/family ordering**.  
+- **AOV = 38+** → customers buy combos, not singles.  
+
+**Recommendations:**  
+- Push **combo deals** (pizza + sides + drinks).  
+- Launch **weekday loyalty rewards** to balance demand.  
+
+---
+
+## Dashboards  
+
+### Dashboard – Sales Overview  
+![Pizza Sales Dashboard](./dashboard.png)  
+
+Features:  
+- KPIs (Revenue, Orders, AOV).  
+- Daily & Monthly sales trends.  
+- Category & Size contribution.  
+- Best/Worst sellers.  
+
+---
+
+## Tech Stack  
+- **SQL** → Data transformation & queries.  
+- **Power BI** → Visualization & dashboards.  
+- **Data Source** → SQL/CSV.  
+
+---
+
+## Outcome  
+- Clear view of sales trends & customer patterns.  
+- Identified weak spots (**Sunday sales, chicken pizzas, oversized pizzas**).  
+- Actionable strategies to **increase revenue & optimize operations**.  
