@@ -3,7 +3,6 @@
 ![Project Status](https://img.shields.io/badge/Status-Completed-brightgreen)  
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow)  
 ![SQL](https://img.shields.io/badge/Database-SQL-blue)  
-![Portfolio](https://img.shields.io/badge/Use-Portfolio%20Project-orange)  
 
 ---
 
